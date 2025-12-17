@@ -37,7 +37,7 @@ layers:
   - DOT
   - SLASH
   - Sft+FSLH
-  - {t: CLCK, h: LEFT CONTROL}
+  - {t: CLCK, h: Fnc}
   - LEFT SHIFT
   - LEFT WIN
   - {t: SPACE, h: Num}
