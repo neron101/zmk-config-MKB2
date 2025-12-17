@@ -1,36 +1,36 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - TAB
   - Q
   - W
   - E
   - R
   - T
+  - {t: TAB, h: Scr}
   - Y
   - U
   - I
   - O
   - P
   - BKSP
-  - {t: ESC, h: BT}
   - A
   - S
   - D
   - F
   - G
+  - {t: SPACE, h: Scr}
   - H
   - J
   - K
   - L
   - SEMI
   - SQT
-  - LSHFT
   - Z
   - X
   - C
   - V
   - B
+  - '&mkp MB2'
   - N
   - M
   - COMMA
@@ -242,7 +242,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -308,7 +308,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
