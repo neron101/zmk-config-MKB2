@@ -30,7 +30,7 @@
 &kp Q     &kp W     &kp E           &kp R     &kp T        &lt 4 TAB        &kp Y        &kp U          &kp I      &kp O      &kp P          &kp MINUS
 &kp A     &kp S     &kp D           &kp F     &kp G        &lt 4 SPACE      &kp H        &kp J          &kp K      &kp L      &kp RS(SEMI)   &mt RIGHT_CONTROL EQUAL
 &kp Z     &kp X     &kp C           &kp V     &kp B        &mkp MB2         &kp N        &kp M          &kp COMMA  &kp DOT    &kp SLASH      &kp RS(FSLH)
-&kp CLCK  &kp LGUI  &kp LEFT_SHIFT            &lt 3 SPACE  &mkp MB1         &lt 1 SPACE  &kp BACKSPACE             &kp ESC    &kp RIGHT_ALT  &lt 5 CLCK
+&kp CLCK  &kp LGUI  &kp LEFT_SHIFT            &lt 2 SPACE  &mkp MB1         &lt 1 SPACE  &kp BACKSPACE             &kp ESC    &kp RIGHT_ALT  &lt 5 CLCK
 &kp LEFT  &kp UP    &kp SPACE       &kp DOWN  &kp RIGHT                                  &kp HOME       &kp PG_UP  &kp ENTER  &kp PG_DN      &kp END
                                     &kp A                                                               &kp B
             >;
