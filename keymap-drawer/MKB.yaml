@@ -44,8 +44,8 @@ layers:
   - '&mkp MB1'
   - {t: ENTER, h: Fnc}
   - BACKSPACE
-  - ESC
-  - RIGHT ALT
+  - LEFT BRACKET
+  - RIGHT BRACKET
   - {t: CLCK, h: BT}
   - LEFT
   - UP
