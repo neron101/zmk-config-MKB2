@@ -18,7 +18,7 @@ layers:
   - D
   - F
   - G
-  - {t: SPACE, h: Fnc}
+  - {t: CLCK, h: Fnc}
   - H
   - J
   - K
