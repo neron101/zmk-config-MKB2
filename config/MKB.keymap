@@ -27,12 +27,12 @@
         default_layer {
             label = "Def";
             bindings = <
-&kp Q         &kp W     &kp E      &kp R     &kp T          &lt 4 TAB        &kp Y           &kp U          &kp I      &kp O      &kp P      &kp BKSP
-&kp A         &kp S     &kp D      &kp F     &kp G          &lt 4 SPACE      &kp H           &kp J          &kp K      &kp L      &kp SEMI   &kp SQT
-&kp Z         &kp X     &kp C      &kp V     &kp B          &mkp MB2         &kp N           &kp M          &kp COMMA  &kp DOT    &kp UP     &kp FSLH
-&mt LCTL ESC  &kp LGUI  &kp LALT             &lt NUM SPACE  &mkp MB1         &lt FUNC SPACE  &lt NUM SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
-&kp LEFT      &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                                       &kp HOME       &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                   &kp A                                                                    &kp B
+&kp Q     &kp W     &kp E           &kp R     &kp T          &lt 4 TAB        &kp Y           &kp U          &kp I      &kp O      &kp P          &kp MINUS
+&kp A     &kp S     &kp D           &kp F     &kp G          &lt 4 SPACE      &kp H           &kp J          &kp K      &kp L      &kp RS(SEMI)   &mt RIGHT_CONTROL EQUAL
+&kp Z     &kp X     &kp C           &kp V     &kp B          &mkp MB2         &kp N           &kp M          &kp COMMA  &kp DOT    &kp SLASH      &kp RS(FSLH)
+&kp CLCK  &kp LGUI  &kp LEFT_SHIFT            &lt NUM SPACE  &mkp MB1         &lt FUNC SPACE  &kp BACKSPACE             &kp ESC    &kp RIGHT_ALT  &lt 5 CLCK
+&kp LEFT  &kp UP    &kp SPACE       &kp DOWN  &kp RIGHT                                       &kp HOME       &kp PG_UP  &kp ENTER  &kp PG_DN      &kp END
+                                    &kp A                                                                    &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -41,12 +41,12 @@
         function_layer {
             label = "Fnc";
             bindings = <
-&kp GRAVE  &kp PG_UP  &kp UP     &kp PG_DN  &kp HOME   &trans         &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &trans
-&tog_ls    &kp LEFT   &kp DOWN   &kp RIGHT  &kp END    &trans         &kp F6     &kp F7     &kp F8     &kp F9     &kp F10    &trans
-&trans     &kp BKSP   &kp DEL    &trans     &trans     &trans         &kp F11    &kp F12    &trans     &trans     &trans     &trans
-&trans     &trans     &kp LALT              &kp ENTER  &kp ENTER      &kp ENTER  &kp ENTER             &trans     &trans     &trans
-&kp LEFT   &kp UP     &kp SPACE  &kp DOWN   &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                 &kp A                                                      &kp B
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)      &trans      &kp RS(NUMBER_6)  &kp RS(N7)  &kp RS(N8)         &kp RS(N9)       &kp RS(N0)  &trans
+&kp LEFT          &kp UP_ARROW      &kp RIGHT         &trans            &kp LANGUAGE_1  &trans      &trans            &trans      &trans             &trans           &trans      &trans
+&kp LEFT_ARROW    &kp DOWN          &kp RIGHT         &trans            &kp LANGUAGE_2  &trans      &trans            &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans      &trans
+&trans            &trans            &kp LALT                            &trans          &trans      &trans            &trans                         &trans           &trans      &trans
+&kp LEFT          &kp UP            &kp SPACE         &kp DOWN          &kp RIGHT                                     &kp HOME    &kp PG_UP          &kp ENTER        &kp PG_DN   &kp END
+                                                      &kp A                                                                       &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -55,12 +55,12 @@
         num_layer {
             label = "Num";
             bindings = <
-&kp CAPS         &kp N1         &kp N2     &kp N3    &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &trans
-&trans           &trans         &trans     &trans    &trans     &trans         &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH   &trans
-&mt LSHFT SPACE  &kp BACKSPACE  &kp DEL    &trans    &trans     &trans         &trans     &kp FSLH   &kp SEMI   &kp SQT    &trans     &trans
-&trans           &kp ENTER      &kp ENTER            &kp ENTER  &kp ENTER      &kp ENTER  &kp ENTER             &trans     &trans     &trans
-&kp LEFT         &kp UP         &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                           &kp A                                                     &kp B
+&kp CAPS         &kp N1         &kp N2     &kp N3    &kp N4     &kp N5         &kp N6     &kp N7      &kp N8             &kp N9        &kp N0     &trans
+&trans           &trans         &trans     &trans    &trans     &trans         &kp MINUS  &kp EQUAL   &kp LBKT           &kp RBKT      &kp BSLH   &trans
+&mt LSHFT SPACE  &kp BACKSPACE  &kp DEL    &trans    &trans     &trans         &trans     &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &trans     &trans
+&trans           &kp ENTER      &kp ENTER            &kp ENTER  &kp ENTER      &kp ENTER  &kp ENTER                      &trans        &trans     &trans
+&kp LEFT         &kp UP         &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME    &kp PG_UP          &kp ENTER     &kp PG_DN  &kp END
+                                           &kp A                                                      &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
