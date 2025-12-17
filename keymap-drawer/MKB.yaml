@@ -38,8 +38,8 @@ layers:
   - SLASH
   - Sft+FSLH
   - CLCK
-  - LGUI
   - LEFT SHIFT
+  - LEFT WIN
   - {t: SPACE, h: Num}
   - '&mkp MB1'
   - {t: ENTER, h: Fnc}
