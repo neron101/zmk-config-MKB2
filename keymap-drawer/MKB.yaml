@@ -40,7 +40,7 @@ layers:
   - CLCK
   - LGUI
   - LEFT SHIFT
-  - {t: SPACE, h: Num}
+  - {t: SPACE, h: Mouse}
   - '&mkp MB1'
   - {t: SPACE, h: Fnc}
   - BACKSPACE
@@ -119,23 +119,23 @@ layers:
   - A
   - B
   Num:
-  - CAPS
   - '1'
   - '2'
   - '3'
   - '4'
   - '5'
+  - {t: ▽, type: trans}
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
   - {t: ▽, type: trans}
+  - LEFT
+  - UP ARROW
+  - RIGHT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LANGUAGE 1
   - {t: ▽, type: trans}
   - MINUS
   - EQUAL
@@ -143,11 +143,11 @@ layers:
   - RBKT
   - BSLH
   - {t: ▽, type: trans}
-  - {t: SPACE, h: LSHFT}
-  - BACKSPACE
-  - DEL
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LANGUAGE 2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - MUTE
@@ -156,12 +156,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ENTER
-  - ENTER
-  - {t: ENTER, type: held}
-  - ENTER
-  - ENTER
-  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -217,7 +217,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
