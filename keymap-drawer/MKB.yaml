@@ -119,36 +119,36 @@ layers:
   - A
   - B
   Num:
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
   - '4'
   - '5'
-  - {t: ▽, type: trans}
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - LEFT
+  - {t: ▽, type: trans}
+  - LEFT ARROW
   - UP ARROW
-  - RIGHT
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - LANGUAGE 1
-  - {t: ▽, type: trans}
   - MINUS
   - EQUAL
   - LBKT
   - RBKT
   - BSLH
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - DOWN
+  - RIGHT
   - {t: ▽, type: trans}
   - LANGUAGE 2
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOLUME DOWN
