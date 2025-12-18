@@ -13,24 +13,24 @@ layers:
   - O
   - P
   - MINUS
-  - {t: CLCK, h: Fnc}
+  - LEFT CONTROL
   - A
   - S
   - D
   - F
-  - {t: G, h: Fnc}
+  - G
   - H
   - J
   - K
   - L
   - Sft+SEMI
   - {t: EQUAL, h: RIGHT CONTROL}
+  - {t: CAPSLOCK, h: Fnc}
   - Z
   - X
   - C
   - V
   - B
-  - '&mkp MB2'
   - N
   - M
   - COMMA
@@ -47,15 +47,15 @@ layers:
   - LEFT BRACKET
   - RIGHT BRACKET
   - {t: CLCK, h: BT}
-  - LEFT
+  - LEFT ARROW
   - UP
-  - SPACE
+  - '&mkp MB2'
   - DOWN
   - RIGHT
   - HOME
   - PG UP
-  - ENTER
-  - PG DN
+  - '&mkp MB2'
+  - PAGE DOWN
   - END
   - A
   - B
