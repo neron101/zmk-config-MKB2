@@ -48,8 +48,8 @@ layers:
   - RIGHT BRACKET
   - {t: CLCK, h: BT}
   - LEFT ARROW
-  - UP
-  - '&mkp MB2'
+  - UP ARROW
+  - {t: SPACE, h: Fnc}
   - DOWN
   - RIGHT
   - HOME
