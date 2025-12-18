@@ -47,11 +47,11 @@ layers:
   - LEFT BRACKET
   - RIGHT BRACKET
   - {t: CLCK, h: BT}
-  - LEFT ARROW
-  - UP ARROW
+  - '&mkp MB2'
   - {t: SPACE, h: Fnc}
-  - DOWN
-  - RIGHT
+  - '&mkp MB1'
+  - {t: SPACE, h: Fnc}
+  - '&mkp MB2'
   - HOME
   - PG UP
   - '&mkp MB2'
