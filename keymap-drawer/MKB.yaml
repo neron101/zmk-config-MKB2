@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - MINUS
-  - LEFT CONTROL
+  - {t: Ctl+CLCK, h: Fnc}
   - A
   - S
   - D
@@ -25,7 +25,7 @@ layers:
   - L
   - Sft+SEMI
   - {t: EQUAL, h: RIGHT CONTROL}
-  - {t: CAPSLOCK, h: Fnc}
+  - CLCK
   - Z
   - X
   - C
@@ -37,7 +37,7 @@ layers:
   - DOT
   - SLASH
   - Sft+FSLH
-  - {t: CLCK, h: Fnc}
+  - LEFT CONTROL
   - LEFT SHIFT
   - LEFT WIN
   - {t: SPACE, h: Num}
@@ -47,11 +47,11 @@ layers:
   - LEFT BRACKET
   - RIGHT BRACKET
   - {t: CLCK, h: BT}
+  - LEFT ARROW
+  - UP ARROW
   - '&mkp MB2'
-  - {t: SPACE, h: Fnc}
-  - '&mkp MB1'
-  - {t: SPACE, h: Fnc}
-  - '&mkp MB2'
+  - DOWN ARROW
+  - RIGHT ARROW
   - HOME
   - PG UP
   - '&mkp MB2'

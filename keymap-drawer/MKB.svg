@@ -191,9 +191,11 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(28, 84)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">LEFT</tspan><tspan x="0" dy="1.2em">CONTROL</tspan>
+<tspan x="0" dy="-0.9em">Ctl+</tspan><tspan x="0" dy="1.2em">CLCK</tspan>
 </text>
-</g>
+<a href="#Fnc">
+<text x="0" y="24" class="key hold layer-activator">Fnc</text>
+</a></g>
 <g transform="translate(84, 84)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">A</text>
@@ -243,10 +245,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(28, 140)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
-<a href="#Fnc">
-<text x="0" y="24" class="key hold layer-activator">Fnc</text>
-</a></g>
+<text x="0" y="0" class="key tap">CLCK</text>
+</g>
 <g transform="translate(84, 140)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Z</text>
@@ -295,10 +295,10 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(28, 196)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">CLCK</text>
-<a href="#Fnc">
-<text x="0" y="24" class="key hold layer-activator">Fnc</text>
-</a></g>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">LEFT</tspan><tspan x="0" dy="1.2em">CONTROL</tspan>
+</text>
+</g>
 <g transform="translate(84, 196)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
@@ -354,31 +354,31 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(392, 224)" class="key keypos-46">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB2</tspan>
+<tspan x="0" dy="-0.6em">LEFT</tspan><tspan x="0" dy="1.2em">ARROW</tspan>
 </text>
 </g>
 <g transform="translate(420, 196)" class="key keypos-47">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
-<text x="0" y="0" class="key tap">SPACE</text>
-<a href="#Fnc">
-<text x="0" y="10" class="key hold layer-activator">Fnc</text>
-</a></g>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">UP</tspan><tspan x="0" dy="1.2em">ARROW</tspan>
+</text>
+</g>
 <g transform="translate(420, 224)" class="key keypos-48">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB1</tspan>
+<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB2</tspan>
 </text>
 </g>
 <g transform="translate(420, 252)" class="key keypos-49">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
-<text x="0" y="0" class="key tap">SPACE</text>
-<a href="#Fnc">
-<text x="0" y="10" class="key hold layer-activator">Fnc</text>
-</a></g>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">DOWN</tspan><tspan x="0" dy="1.2em">ARROW</tspan>
+</text>
+</g>
 <g transform="translate(448, 224)" class="key keypos-50">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB2</tspan>
+<tspan x="0" dy="-0.6em">RIGHT</tspan><tspan x="0" dy="1.2em">ARROW</tspan>
 </text>
 </g>
 <g transform="translate(504, 224)" class="key keypos-51">
