@@ -60,19 +60,20 @@ layers:
   - A
   - B
   Fnc:
-  - {t: Sft+1, type: held}
+  - {type: held}
+  - Sft+1
   - Sft+2
   - Sft+3
   - Sft+4
   - Sft+5
-  - {t: ▽, type: trans}
   - Sft+6
   - Sft+7
   - Sft+8
   - Sft+9
   - Sft+0
   - {t: ▽, type: trans}
-  - LEFT
+  - {t: ▽, type: trans}
+  - LEFT ARROW
   - UP ARROW
   - RIGHT
   - {t: ▽, type: trans}
@@ -84,12 +85,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ARROW
+  - LEFT
   - DOWN
   - RIGHT
   - {t: ▽, type: trans}
   - LANGUAGE 2
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOLUME DOWN
@@ -111,11 +111,11 @@ layers:
   - SPACE
   - DOWN
   - RIGHT
-  - HOME
-  - PG UP
-  - ENTER
-  - PG DN
-  - END
+  - VOLUME DOWN
+  - VOLUME UP
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
   - A
   - B
   Num:
@@ -170,11 +170,11 @@ layers:
   - SPACE
   - DOWN
   - RIGHT
-  - HOME
-  - PG UP
-  - ENTER
-  - PG DN
-  - END
+  - VOLUME DOWN
+  - VOLUME UP
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
   - A
   - B
   Mouse:
